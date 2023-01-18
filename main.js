@@ -1,7 +1,4 @@
-// pre loader ========================
-$(document).ready(function() {
-  $("#overlay").fadeToggle(2000);
-});
+
 
 // numcount up ============================================================
 $('.stat-number').each(function () {
@@ -135,4 +132,26 @@ $(document).ready(function(){
   });
 });
 
+
+
+// pre loader ========================
+// $(document).ready(function() {
+//   $("#overlay").fadeToggle(2000);
+// });
+
+
+
+$(document).ready(function() {
+  
+  setTimeout(function() {
+    $('#ctn-preloader').addClass('loaded');
+
+    if ($('#ctn-preloader').hasClass('loaded')) {
+      $('#preloader').delay(1000).queue(function() {
+        $(this).remove();
+      });
+    }
+  }, 3000);
+  
+});
 
