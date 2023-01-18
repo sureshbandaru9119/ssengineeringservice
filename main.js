@@ -183,26 +183,26 @@ $(document).ready(function() {
 
 // scroll top section start ========================================
 
-let calcScrollValue = () => {
-   let scrollProgress = document.getElementById("progress");
-   let progressValue = document.getElementById("progress-value");
-   let pos = document.documentElement.scrollTop;
-   let calcHeight =
-     document.documentElement.scrollHeight -
-     document.documentElement.clientHeight;
-   let scrollValue = Math.round((pos * 100) / calcHeight);
-   if (pos > 100) {
-     scrollProgress.style.display = "grid";
-   } else {
-     scrollProgress.style.display = "none";
-   }
-   scrollProgress.addEventListener("click", () => {
-     document.documentElement.scrollTop = 0;
-   });
-   scrollProgress.style.background = `conic-gradient(#ff6d34 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
- };
- window.onscroll = calcScrollValue;
- window.onload = calcScrollValue;
+// let calcScrollValue = () => {
+//    let scrollProgress = document.getElementById("progress");
+//    let progressValue = document.getElementById("progress-value");
+//    let pos = document.documentElement.scrollTop;
+//    let calcHeight =
+//      document.documentElement.scrollHeight -
+//      document.documentElement.clientHeight;
+//    let scrollValue = Math.round((pos * 100) / calcHeight);
+//    if (pos > 100) {
+//      scrollProgress.style.display = "grid";
+//    } else {
+//      scrollProgress.style.display = "none";
+//    }
+//    scrollProgress.addEventListener("click", () => {
+//      document.documentElement.scrollTop = 0;
+//    });
+//    scrollProgress.style.background = `conic-gradient(#ff6d34 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+//  };
+//  window.onscroll = calcScrollValue;
+//  window.onload = calcScrollValue;
 
 // testimonial secrion start ==============================
 
@@ -273,4 +273,3 @@ $(document).ready(function(){
 
 
 
->>>>>>> f22d420c6319f1b6108504154ec513f695cb9abe
