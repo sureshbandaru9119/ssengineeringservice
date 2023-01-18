@@ -148,10 +148,6 @@ $('.stat-number').each(function () {
     });
 });
  
-// pre loader ========================
-$(document).ready(function() {
-  $("#overlay").delay(2000).fadeOut();
-});
 
 
 // pop up =====================================================================
