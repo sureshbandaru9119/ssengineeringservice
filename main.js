@@ -1,3 +1,7 @@
+// pre loader ========================
+$(document).ready(function() {
+  $("#overlay").delay(2000).fadeOut();
+});
 
 // numcount up ============================================================
 $('.stat-number').each(function () {
@@ -12,10 +16,6 @@ $('.stat-number').each(function () {
     });
 });
  
-// pre loader ========================
-$(document).ready(function() {
-  $("#overlay").delay(2000).fadeOut();
-});
 
 
 // pop up =====================================================================
@@ -25,7 +25,7 @@ $(document).ready(function() {
 //            document.querySelector(".popup").style.display = "block";
 //        },
 //        3000
-//    ) 
+//    );
 // });
 // document.querySelector("#close").addEventListener("click", function(){
 //    document.querySelector(".popup").style.display = "none";
