@@ -1,6 +1,6 @@
 // pre loader ========================
 $(document).ready(function() {
-  $("#overlay").delay(2000).fadeOut()
+  $("#overlay").fadeOut(2000);
 });
 
 // numcount up ============================================================
