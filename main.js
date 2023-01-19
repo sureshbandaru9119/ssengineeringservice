@@ -6,7 +6,7 @@ $('.stat-number').each(function () {
     $(this).prop('Counter', 0).animate({
        Counter: $(this).text()
     }, {
-       duration: 5000,
+       duration: 12000,
        step: function (func) {
           $(this).text(parseFloat(func).toFixed(size));
       }
