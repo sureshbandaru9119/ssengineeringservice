@@ -973,7 +973,7 @@ animation: spin 1s linear infinite;
   }
   #progress {
   height: 50px;
-  width: 52px;
+  width: 50px;
   }
   #progress-value {
   font-size: 24px;
