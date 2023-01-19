@@ -723,6 +723,14 @@ animation: spin 1s linear infinite;
   position: relative;
   font-size: 24px;
   }
+  .client-single.position-4 {
+    left: -30px;
+    top: 380px;
+  }
+  .client-single.position-5 {
+    top: 30px;
+    right: -41px;
+ }
 
 }
 

@@ -9,10 +9,30 @@ $('.stat-number').each(function () {
        duration: 5000,
        step: function (func) {
           $(this).text(parseFloat(func).toFixed(size));
-       }
+      }
     });
 });
  
+
+// scrolling smooth section pages   =============================
+
+$(document).ready(function(){
+  $("#nav_section a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+   
+        window.location.hash = hash;
+      });
+    }
+  });
+});
 
 
 // pop up =====================================================================
@@ -107,32 +127,8 @@ $(document).ready(function(){
    $(".myNav").click(function(){
      $(".nav_ul").toggleClass("ul_li", "slow");
    });
- });
-
-
-
-
-// scrolling smooth section pages   =============================
-
- $(document).ready(function(){
-  $("#nav_section a").on('click', function(event) {
-
-    if (this.hash !== "") {
-      event.preventDefault();
-
-      var hash = this.hash;
-
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1000, function(){
-   
-        window.location.hash = hash;
-      });
-    }
-  });
 });
-
-
+ 
 
 // pre loader ========================
 // $(document).ready(function() {
