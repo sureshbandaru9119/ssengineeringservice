@@ -752,9 +752,19 @@
   .myNav{
   display: block;
   }
+  .nav_logo {
+    height: 70px;
+    width: auto;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .bar1, .bar2, .bar3 {
+    background-color: #fff
+  }
   .nav_section{
   justify-content: space-between;
-  padding: 0 30px;
+  padding: 2px 30px;
+  background: #1C3879;
   }
   .nav_ul li {
   color: #fff;
