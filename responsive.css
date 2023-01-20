@@ -4,31 +4,31 @@
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px){
-.choose-img {
-width: 436px;
-height: 510px;
-}
-.about_icons p {
-font-size: 13px;
-}
-.service_title {
-font-size: 32px;
-}
-#testimonial-area .section-heading h2 {
-width: 80%;
-}
-.loadtext {
-font-size: 15px;
-}
-.spinner {
-border: solid 2px #fff;
-border-top: none;
-border-left: none;
-width: 111px;
-height: 111px;
-animation: spin 1s linear infinite;
+  .choose-img {
+  width: 436px;
+  height: 510px;
+  }
+  .about_icons p {
+  font-size: 13px;
+  }
+  .service_title {
+  font-size: 32px;
+  }
+  #testimonial-area .section-heading h2 {
+  width: 80%;
+  }
+  .loadtext {
+  font-size: 15px;
+  }
+  .spinner {
+  border: solid 2px #fff;
+  border-top: none;
+  border-left: none;
+  width: 111px;
+  height: 111px;
+  animation: spin 1s linear infinite;
 
-}
+  }
 }
 
 
@@ -795,7 +795,7 @@ animation: spin 1s linear infinite;
   color: #000;
   }
   .choose-title {
-  text-align: center;
+  text-align: left;
   font-size: 26px;
 
   }
@@ -862,8 +862,9 @@ animation: spin 1s linear infinite;
   }
   .service_title {
   width: 100%;
-  font-size: 17px;
+  font-size: 26px;
   padding-top: 39px;
+  text-align: left;
   }
 
   .our-service-content h4 {
@@ -885,11 +886,11 @@ animation: spin 1s linear infinite;
   padding-right: 7px;
   }
   #testimonial-area .section-heading h2 {
-  font-size: 21px;
-  line-height: 31px;
-  width: 88%;
-  text-align: center;
-  padding: 31px 0 23px 0;
+    font-size: 26px;
+    line-height: 31px;
+    width: 100%;
+    text-align: left;
+    padding: 31px 0 23px 0;
   }
   .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
   width: 100%;

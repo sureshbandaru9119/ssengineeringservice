@@ -471,9 +471,7 @@ a{
     font-size: 20px;
     font-weight: 500;
 }
-.about-pera{
-  
-}
+
 .export_contact{
   border-top: 1px solid #dee2e6;
 }
@@ -1331,7 +1329,7 @@ border-radius: 50%;
 background: #3B5998;
 }
 .twitter-bg{
-background: green;
+background: #2dc52d;
 }
 .google-bg{
 background: #DD4B39;
@@ -1353,7 +1351,7 @@ width: 50px;
 background: #ff5e14;
 }
 .footer-widget ul li {
-display: inline-block;
+display:block;
 float: left;
 width: 50%;
 margin-bottom: 12px;
